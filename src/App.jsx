@@ -4,17 +4,22 @@ import Modals from "./components/Modals"
 
 const App = () => {
   const [toggleModal,setToggleModal]=useState(true);
+  const [product,setProduct]=useState([]);
   function handleClose(val){
     setToggleModal(val)
+  }
+  function getData(val){
+    setProduct([...product,val]);
   }
   return (
     <>
       <div className="container-fluid mt-5">
           <h1>Product Lists</h1>  
           <button className="btn btn-primary float-end me-5" onClick={()=>setToggleModal(false)}>Add Product</button>
-          <List/>
+          <List products={product}/>
       </div>
-      {toggleModal ? '' :<Modals onClose={handleClose}/>}
+      {toggleModal ? '' :<Modals onClose={handleClose} submit={getData}/>}
+      
     </>
   )
 }
