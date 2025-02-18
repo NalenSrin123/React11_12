@@ -1,6 +1,6 @@
 
 
-const List = ({products}) => {
+const List = ({products,deleteProduct}) => {
   return (
     <>
         <table className="table text-center align-middle" style={{ tableLayout:"fixed"}}>
@@ -25,7 +25,7 @@ const List = ({products}) => {
                             <td><img width={80} src={val.imageUrl} alt="" /></td>
                             <td>
                                 <button className="btn btn-warning me-2">Edit</button>
-                                <button className="btn btn-danger">Delete</button>
+                                <button className="btn btn-danger" onClick={()=>deleteProduct(val.code)}>Delete</button>
                             </td>
                         </tr>
                     );
