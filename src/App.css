@@ -1,0 +1,15 @@
+.page{
+    width: 95%;
+    margin: auto;
+    height: 60vh;
+    background-color: #fff;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    h1{
+        color: #000;
+    }
+}
