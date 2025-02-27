@@ -3,24 +3,24 @@
         "id":1,
         "name":"Cappucino",
         "price":3,
-        "image":"../src/assets/images/Cappucino.png"
+        "image":"/images/Cappucino.png"
     },
     {
         "id":2,
         "name":"Caffè Misto",
         "price":3.5,
-        "image":"../src/assets/images/CaffèMisto.png"
+        "image":"/images/CaffèMisto.png"
     },
     {
         "id":3,
         "name":"Vanilla Sweet Cream",
         "price":3.5,
-        "image":"../src/assets/images/VanillaSweetCream.png"
+        "image":"/images/VanillaSweetCream.png"
     },
     {
         "id":4,
         "name":"Vanilla Sweet Cream",
         "price":3.5,
-        "image":"../src/assets/images/VanillaSweetCream.png"
+        "image":"/images/VanillaSweetCream.png"
     }
 ]

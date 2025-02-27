@@ -19,7 +19,7 @@ const App = () => {
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/service" element={<Service/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/detail:id" element={<ProductDetail/>} />
+        <Route path="/detail/:id" element={<ProductDetail/>} />
       </Routes>
     </ContextProduct>
   )

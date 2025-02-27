@@ -1,0 +1,13 @@
+@keyframes drop{
+    0%{
+        transform: translateY(-50px) scale(0.5);
+    }
+    100%{
+        transform: translateY(0) scale(1);
+    }
+}
+.box{
+    animation-name: drop;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
